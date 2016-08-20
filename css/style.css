@@ -210,8 +210,8 @@ nav{
 }
 
 .annc1{
-  height: 300px;
-  width: 450px;
+/*  height: 100%;*/
+  width: 30em;
   border: 3px solid black;
 }
 
@@ -220,9 +220,16 @@ nav{
      width:100%;
 }
 
-.annc1Body{
-     position: 
+article {
+  max-height: 7em; /* (4 * 1.5 = 6) */
+     padding: 10px;
 }
+p{
+     width:100%;
+     
+     te: center
+}
+
 
 .annc2{
   height: 300px;
