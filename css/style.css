@@ -213,33 +213,37 @@ nav{
 /*  height: 100%;*/
   width: 30em;
   border: 3px solid black;
+  text-align: center; 
+/*     padding: 10px;*/
 }
 
 .childrens{
-     height:100;
+/*     height:100;*/
      width:100%;
 }
 
 article {
-  max-height: 7em; /* (4 * 1.5 = 6) */
+       max-height: 7em; /* (4 * 1.5 = 6) */
      padding: 10px;
 }
 p{
      width:100%;
-     
-     te: center
 }
 
+a{
+     text-decoration: none;
+}
 
 .annc2{
-  height: 300px;
-  width: 450px;
+  width: 30em;
   border: 3px solid black;
+  text-align: center; 
+
 }
 
 .youth{
-     height:100;
-     width:70%;
+         width:100%;
+
 }
 
 .row2{
@@ -249,20 +253,22 @@ p{
 }
 
 .annc3{
-  height: 300px;
-  width: 450px;
+  width: 30em;
   border: 3px solid black;
+  text-align: center; 
+
 }
 
 .baptism{
-     height:100;
-     width:70%;
+     width:100%;
+
 }
 
 .annc4{
-  height: 300px;
-  width: 450px;
+  width: 30em;
   border: 3px solid black;
+  text-align: center; 
+
 }
 
 .row3{
@@ -272,20 +278,22 @@ p{
 }
 
 .oneX{
-  height: 300px;
-  width: 450px;
+  width: 30em;
   border: 3px solid black;
+  text-align: center; 
+
 }
 
 .oX{
-     height:100;
-     width:70%;
+ width:100%;
+
 }
 
 .iYi{
-  height: 300px;
-  width: 450px;
+ width: 30em;
   border: 3px solid black;
+  text-align: center; 
+
 }
 
 .eventContent{
