@@ -1,0 +1,437 @@
+
+*{
+    box-sizing:border-box; 
+    
+}
+
+.main-container{
+     width: auto;
+     margin: 0 auto 0 auto; 
+     background-color: whitesmoke;
+     font-family: 'Raleway', sans-serif;
+}
+
+header{
+ 		text-align: center;
+     width: auto;
+     height:500px;
+     position: relative;
+     color: whitesmoke;
+}
+
+
+.welcome_header{
+  	width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    left: 200px;
+    height: 250px; 
+}
+
+.welcome{
+  font-size:5em;
+  margin-bottom: 10px;
+}
+
+nav{
+	width:100%;
+}
+
+.pill-button { 
+     display: inline-block;
+     padding: 10px 20px;
+     margin-right: 1em;
+     background-color: whitesmoke;
+     text-decoration:none;  
+     color:black;
+} 
+
+.pill-button:hover{
+    color: white;
+		background-color:black;
+}
+
+.section_one{
+     display: flex;
+     text-align: center;
+     margin-top: 180px; 
+}
+
+.welcome_message{
+  height: 500px;
+  width: 500px;
+  margin: 0 100px;
+  border:solid black 3px;
+  padding: 40px;
+  
+}
+
+.bodyCopy{
+	text-align:left;
+	height:100%;
+	word-wrap: break-word;
+}
+
+.column_two{
+	margin-right: 80px;
+}
+
+.service_times{
+  border:solid black 3px;
+  height: 150px;
+  margin-top: 46px;
+  padding-top: 20px;
+}
+
+.space_container{
+  width:100%;
+  height:100px;
+  background-color:black;
+  margin-bottom: 70px;
+}
+
+.n_s{
+  font-size: 72px;
+  color: white;
+  text-align: center;
+}
+
+.pill-button_nS { 
+     display: inline-block;
+     padding: 2% 2%;
+     background-color: black;
+     text-decoration:none;  
+     color: white;
+} 
+
+.pill-button_nS:hover{
+    color: black;
+		background-color:white;
+}
+
+.groupLife{
+  display:flex;
+  justify-content: flex-start;
+  border:3px solid black;
+  height: 306px;
+  width:100%; 
+  margin-bottom: 70px;
+}
+
+.gL{
+  position:absolute;
+  font-size: 60px;
+  left: 75px;
+  margin-top: 110px
+}
+
+.groupLife_content {
+  padding: 40px;
+}
+
+.groupLife_content p {
+  padding-bottom: 20px;
+}
+
+
+.growthTrack{
+  display:flex;
+  border:3px solid black;
+  height: 306px;
+  width:100%;
+  margin-bottom: 70px;
+}
+
+.gT{
+  position:absolute;
+  font-size: 60px;
+  left: 45px;
+  margin-top: 110px
+}
+
+.growthTrack_content{
+  padding:40px;
+}
+
+.growthTrack_content p {
+  padding-bottom: 20px;
+}
+
+
+.volunteer{
+  display:flex;
+  justify-content: flex-start;
+  border:3px solid black;
+  height: 306px;
+  width:100%;
+  margin-bottom: 70px;
+}
+
+.v{
+  position:absolute;
+  font-size: 60px;
+  left: 75px;
+  margin-top: 110px
+}
+
+
+.giving_icons{
+  display:flex; 
+  margin: 50px;
+  justify-content: space-between;
+}
+
+.online h3{
+  margin-left: 40px;
+}
+
+.kiosk h3{
+  margin-left: -10px;
+}
+
+.service h3{
+  margin-left: 15px;
+}
+
+.text h3{
+  margin-left:-3px;
+}
+
+.mail h3{
+  margin-left: 18px;
+}
+
+.row1{
+  display:flex;
+  justify-content:space-between;
+  margin: 80px;
+}
+
+.annc1{
+  height: 300px;
+  width: 450px;
+  border: 3px solid black;
+}
+
+.childrens{
+     height:100;
+     width:100%;
+}
+
+.annc1Body{
+     position: 
+}
+
+.annc2{
+  height: 300px;
+  width: 450px;
+  border: 3px solid black;
+}
+
+.youth{
+     height:100;
+     width:70%;
+}
+
+.row2{
+  display:flex;
+  justify-content:space-between;
+  margin: 80px;
+}
+
+.annc3{
+  height: 300px;
+  width: 450px;
+  border: 3px solid black;
+}
+
+.baptism{
+     height:100;
+     width:70%;
+}
+
+.annc4{
+  height: 300px;
+  width: 450px;
+  border: 3px solid black;
+}
+
+.row3{
+  display:flex;
+  justify-content:space-between;
+  margin: 80px;
+}
+
+.oneX{
+  height: 300px;
+  width: 450px;
+  border: 3px solid black;
+}
+
+.oX{
+     height:100;
+     width:70%;
+}
+
+.iYi{
+  height: 300px;
+  width: 450px;
+  border: 3px solid black;
+}
+
+.eventContent{
+    margin: 80px;
+    height: 800px;
+    display: flex;
+}
+
+.calendar{
+    height: 100%;
+    width: 50%;
+    border: 3px solid black;
+    padding: 30px;
+		
+}
+
+th, td {
+  padding: 5px;}
+
+th{
+  padding-right: 5px;
+}
+
+#thisMonth {
+ 	align: center;
+	width:100%;
+	
+}
+
+#nextMonth{
+  margin-top: 10px;
+	width:100%;
+
+}
+
+.mainEvents{
+    display: block;
+    width: 50%;
+    margin-left: 80px;
+}
+
+.event1{
+      height: 33.33%;
+    /* padding-bottom: 10%; */
+    /* width: 100%; */
+    border: 1px solid black;
+}
+
+.event2{
+      height: 33.33%;
+    /* margin-top: 20px; */
+    /* width: 100%; */
+    border: 1px solid black;
+}
+
+.event3{
+      height: 33.33%;
+    /* margin-top: 20px; */
+    /* width: 50%; */
+    border: 1px solid black;
+}
+
+
+
+
+.icons{
+  display: flex;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+
+.google{
+  width: 35em;
+}
+
+.gd{
+	width: 60%;
+	margin-left: 90px;
+}
+
+.apple{
+	
+  width:30%;
+}
+
+footer{
+  background-color:black;
+  height: 400px;
+	width: 100%;
+	margin:auto;
+}
+
+.mediaIcons{
+	  display: flex;
+    position: relative;
+    top: 3em;
+		left: 33%;  
+	  margin-bottom: 30px;
+}
+
+.watch{
+	margin-right: 3em;
+  width: 3%;
+}
+
+.facebook{
+	margin-right: 3em;
+  width: 2%;
+}
+
+.twitter{
+	margin-right: 3em;
+  width: 5%;
+}
+
+.instagram{
+	margin-right: 3em;
+  width: 4%;
+}
+
+.googlePlus{
+	margin-right: 3em;
+  width: 6%;
+}
+
+.name{
+  display:flex;
+  justify-content:center;
+  font-size:2em;
+  color:white;
+	margin-top: 40x;
+  margin-bottom: -50px;
+}
+
+.contactInfo{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  color:white;
+  
+}
+
+.buttons{
+  display:flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+footer .pill-button{
+  padding: 5px;
+  color:black;
+  text-decoration:none;
+  background-color: whitesmoke;
+}
