@@ -365,6 +365,10 @@ th{
     margin-left: 80px;
 }
 
+.eventLinks: hover{
+     border-color: black;
+}
+
 .event1{
       height: 33.33%;
     /* padding-bottom: 10%; */
