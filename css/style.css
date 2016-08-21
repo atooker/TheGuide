@@ -370,6 +370,13 @@ th{
     /* padding-bottom: 10%; */
     /* width: 100%; */
     border: 1px solid black;
+     overflow: hidden;
+}
+
+.ev1{
+position: relative;
+    left: -10%;
+    width: 120%;
 }
 
 .event2{
@@ -377,6 +384,13 @@ th{
     /* margin-top: 20px; */
     /* width: 100%; */
     border: 1px solid black;
+     overflow: hidden;
+}
+
+.ev2{
+    position: relative;
+    left: -10%;
+    width: 120%;
 }
 
 .event3{
@@ -384,9 +398,14 @@ th{
     /* margin-top: 20px; */
     /* width: 50%; */
     border: 1px solid black;
+     overflow: hidden;
 }
 
-
+.ev3{
+   position: relative;
+    left: -10%;
+    width: 120%;
+}
 
 
 .icons{
