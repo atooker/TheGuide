@@ -38,18 +38,17 @@ header{
 */
 
 .welcome_header{
-  	width: 70%;
-    margin: auto;
-    position: absolute;
-    top: 300px;
-    bottom: 0;
-    left: 200px;
-    height: 250px; 
+     width: 100%;
+     margin: auto;
+     position: absolute;
+     bottom: 0;
+     height: 250px;
 }
 
 .welcome{
-  font-size:5em;
-  margin-bottom: 10px;
+     font-size:5em;
+     margin-bottom: 10px;
+     text-shadow: 2px 2px black;
 }
 
 nav{
@@ -156,28 +155,33 @@ nav{
   position:absolute;
   font-size: 60px;
   left: 75px;
-  margin-top: 110px
+  margin-top: 110px;
+     text-shadow: 2px 1px whitesmoke;
 }
 
-.graphic_name{
+.gl_graphic{
      width: 200em;
      overflow: hidden;
      background-color: coral;
-
 }
 
-.groupGraphic{
-     width:50%;
+.groupLifeGraphic{
+     width:100%;
+     height: 100%;
      background-color: coral;
-
+     background-image: url(http://onespokane.com/wp-content/uploads/2014/12/Dollarphotoclub_74031703.jpg);
+     overflow: hidden;
+  background-size: cover;
 }
 
 .groupLife_content {
-  padding: 40px;
+     padding: 40px;
 }
 
 .groupLife_content p {
-  padding-bottom: 20px;
+     padding-bottom: 20px;
+     margin-bottom: 0px;
+     margin-top: 0px;
 }
 
 
@@ -189,17 +193,19 @@ nav{
   margin-bottom: 70px;
 }
 
-.gT{
-  position:absolute;
-  font-size: 60px;
-  left: 45px;
-  margin-top: 110px
+.gt_graphic{
+     width: 170em;
+     overflow: hidden;
+     background-color: coral;
 }
 
-
 .growthGraphic{
-     width: 100%;
+     width:100%;
+     height: 100%;
      background-color: coral;
+     background-image: url(http://onespokane.com/wp-content/uploads/2016/03/Growth-Track-Color-Option-3.png);
+     overflow: hidden;
+  background-size: cover;
 }
 
 .growthTrack_content{
@@ -207,7 +213,9 @@ nav{
 }
 
 .growthTrack_content p {
-  padding-bottom: 20px;
+     padding-bottom: 20px;
+     margin-bottom: 0px;
+     margin-top: 0px;
 }
 
 
@@ -220,17 +228,25 @@ nav{
   margin-bottom: 70px;
 }
 
-.volGraphic{
-     width:50%;
+.v_graphic{
+     width: 121em;
+     overflow: hidden;
      background-color: coral;
+}
 
+.volGraphic{
+     width:100%;
+     height: 100%;
+     background-color: black;
+     overflow: hidden;
+     background-size: cover;
 }
 
 .v{
-  position:absolute;
-  font-size: 60px;
-  left: 75px;
-  margin-top: 110px
+     font-size: 60px;
+     padding-left: 40px;
+     margin-top: 110px;
+     color:white;
 }
 
 
