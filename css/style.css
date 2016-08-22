@@ -162,13 +162,11 @@ nav{
 .gl_graphic{
      width: 200em;
      overflow: hidden;
-     background-color: coral;
 }
 
 .groupLifeGraphic{
      width:100%;
      height: 100%;
-     background-color: coral;
      background-image: url(http://onespokane.com/wp-content/uploads/2014/12/Dollarphotoclub_74031703.jpg);
      overflow: hidden;
   background-size: cover;
@@ -224,7 +222,6 @@ nav{
 
 .volunteer{
   display:flex;
-/*  justify-content: flex-start;*/
   border:3px solid black;
   height: 306px;
   width:100%;
@@ -234,7 +231,7 @@ nav{
 .v_graphic{
      width: 121em;
      overflow: hidden;
-     background-color: coral;
+     background-color: black;
 }
 
 .volGraphic{
