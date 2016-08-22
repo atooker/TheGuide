@@ -264,7 +264,6 @@ nav{
      display:flex;
      justify-content:space-between;
      margin: 80px;
-     height: 400px;
 }
 
 .annc1{
@@ -272,6 +271,7 @@ nav{
      width: 30em;
      border: 3px solid black;
      text-align: center; 
+     
 }
 
 .childrens{
@@ -307,7 +307,6 @@ a{
      display:flex;
      justify-content:space-between;
      margin: 80px;
-     height: 400px;
 }
 
 .annc3{
@@ -321,6 +320,9 @@ a{
      width:100%; 
 }     
 
+annc3 p{
+     margin: 20px;
+}
 .annc4{
      width: 30em;
      border: 3px solid black;
@@ -334,14 +336,12 @@ a{
      background-position: bottom;
      background-repeat: no-repeat;
      overflow: hidden;
-     padding: 20px;
 }
 
 .row3{
      display:flex;
      justify-content:space-between;
      margin: 80px;
-     height: 400px;
 }
 
 .oneX{
