@@ -195,17 +195,20 @@ nav{
 
 .gt_graphic{
      width: 170em;
+     height: 100%;
      overflow: hidden;
-     background-color: coral;
+     background-color: black;
 }
 
 .growthGraphic{
      width:100%;
      height: 100%;
-     background-color: coral;
      background-image: url(http://onespokane.com/wp-content/uploads/2016/03/Growth-Track-Color-Option-3.png);
      overflow: hidden;
-  background-size: cover;
+     background-size: contain;
+     margin-top: 30px;
+     margin-left: 5px;
+     background-repeat: no-repeat;
 }
 
 .growthTrack_content{
@@ -243,10 +246,15 @@ nav{
 }
 
 .v{
-     font-size: 60px;
-     padding-left: 40px;
-     margin-top: 110px;
+     font-size: 3.5em;
+     margin-top: 120px;
      color:white;
+     text-align: center;
+}
+
+
+
+
 }
 
 
