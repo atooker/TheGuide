@@ -4,8 +4,15 @@
 }
 
 
+  @media (min-width: 768px)
+     body {
+    background: #181818;
+    font-size: 18px;
+}
+
+
 .main-container{
-     width: auto;
+     width: 1080px;
      margin: 0 auto; 
      background-color: whitesmoke;
      font-family: 'Raleway', sans-serif;
