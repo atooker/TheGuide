@@ -92,7 +92,6 @@ nav{
 }
 
 .coffee_text{
-     height: 150px;
      border:solid black 3px;
      width: 100%;
      color: white;
@@ -109,6 +108,12 @@ nav{
      margin-top: 50px;
      width: 100%;
      padding: 15px;
+}
+
+.connect_Card h3{
+    font-size: xx-large;
+    margin-bottom: 15px;
+    margin-top: 15px;  
 }
 
 .space_container{
