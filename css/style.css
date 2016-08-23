@@ -383,12 +383,12 @@ annc3 p{
 
 .eventContent{
     margin: 80px;
-    height: 800px;
-    display: block;
+    height: auto;
+    display: flex;
 }
 
 .calendar{
-    height: 50%;
+    height: auto;
     width: 100%;
     border: 3px solid black;
     padding: 30px;
@@ -396,23 +396,12 @@ annc3 p{
 }
 
 th, td {
-     font: 8em;
-  padding: 5px;}
+     padding: 5px;}
 
 th{
-     font: 8em;
-  padding-right: 5px;
+     padding-right: 5px;
 }
 
-#thisMonth {
-     width:100%;	
-}
-
-#nextMonth{
-  margin-top: 10px;
-	width:100%;
-
-}
 
 .mainEvents{
     display: flex;
