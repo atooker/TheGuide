@@ -404,54 +404,58 @@ th{
 
 
 .mainEvents{
-    display: flex;
+    display: block;
     width: 100%;
+     margin-left: 40px;
+     height: auto;
 }
 
 .eventLinks: hover{
      border-color: black;
 }
 
-.event1{
-      height: 33.33%;
-    /* padding-bottom: 10%; */
-    /* width: 100%; */
-    border: 3px solid transparent;
+.event0{
+     border:solid black 3px;
+     width: 100%;
+     color: white;
+     padding-left: 2em;
+     padding-right: 2em;
      overflow: hidden;
+     background: url('https://hd.unsplash.com/photo-1453946610176-6be21147c400') ;
+     background-size: cover;
+/*     background-repeat: no-repeat;*/
+     
+}
+
+.teachingNotes{
+     padding: 10px 20px;
+     margin-right: 1em;
+     background-color: green;
+     text-decoration:none;  
+     color:black;
+}
+
+.event1{
 }
 
 .ev1{
-position: relative;
-    left: -10%;
-    width: 120%;
+     width: 100%;
 }
 
 .event2{
-      height: 33.33%;
-    /* margin-top: 20px; */
-    /* width: 100%; */
-    border: 3px solid transparent;
-     overflow: hidden;
+
 }
 
 .ev2{
-    position: relative;
-    left: -10%;
-    width: 125%;
+    width: 100%;
 }
 
 .event3{
-      height: 33.33%;
-    /* margin-top: 20px; */
-    /* width: 50%; */
-    border: 3px solid transparent;
-     overflow: hidden;
+
 }
 
 .ev3{
-   position: relative;
-    left: -10%;
-    width: 125%;
+     width: 100%;
 }
 
 
