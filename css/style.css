@@ -4,10 +4,8 @@
 }
 
 
-  @media (min-width: 768px)
-     body {
-    background: #181818;
-    font-size: 18px;
+@-ms-viewport{
+  width: device-width;
 }
 
 
