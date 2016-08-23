@@ -12,7 +12,7 @@
 
 
 .main-container{
-     width: 1080px;
+     width: 1000px;
      margin: 0 auto; 
      background-color: whitesmoke;
      font-family: 'Raleway', sans-serif;
@@ -31,18 +31,6 @@ header{
      width: 100%;
      background-color: coral;
 }
-/*
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-  }
-
-.container{
-     max-height: 20em;
-     width: 100%;
-}
-*/
 
 .welcome_header{
      width: 100%;
@@ -145,24 +133,22 @@ nav{
 } 
 
 .pill-button_nS:hover{
-    color: black;
-		background-color:white;
+     color: black;
+     background-color:white;
 }
 
 .groupLife{
   display:flex;
-/*  justify-content: flex-start;*/
   border:3px solid black;
   height: 306px;
-/*  width:100%; */
   margin-bottom: 70px;
 }
 
 .gL{
-  position:absolute;
-  font-size: 60px;
-  left: 75px;
-  margin-top: 110px;
+     text-align: center;
+     width: 100%;
+     font-size: 4em;
+     margin-top: 110px;
      text-shadow: 2px 1px whitesmoke;
 }
 
@@ -302,7 +288,7 @@ nav{
 }
 
 article {
-     max-height: 9em; /* (4 * 1.5 = 6) */
+     max-height: 7em; 
      padding: 10px;
 }
 p{
