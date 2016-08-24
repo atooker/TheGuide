@@ -11,6 +11,7 @@
 */
 
 
+
 article {
      max-height: 9em; 
      padding: 10px;
@@ -20,8 +21,12 @@ a{
      text-decoration: none;
 }
 
+body{
+     display: block;
+     margin: 0;
+}
 .main-container{
-     width: 1000px;
+     width: device-width;
      margin: 0 auto; 
      background-color: whitesmoke;
      font-family: 'Raleway', sans-serif;
