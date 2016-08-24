@@ -415,24 +415,22 @@ th{
 }
 
 .event0{
-     border:solid black 3px;
+     background-image: url(https://hd.unsplash.com/photo-1414058862086-136de6c98e99);
+     background-size: cover;
      width: 100%;
      color: white;
-     padding-left: 2em;
-     padding-right: 2em;
+     padding:2em;
+     text-align: center;
      overflow: hidden;
-     background: url('https://hd.unsplash.com/photo-1453946610176-6be21147c400') ;
-     background-size: cover;
-/*     background-repeat: no-repeat;*/
-     
 }
 
 .teachingNotes{
      padding: 10px 20px;
      margin-right: 1em;
-     background-color: green;
+     background-color: black;
      text-decoration:none;  
-     color:black;
+     color:white;
+     font-size:1em;
 }
 
 .event1{
