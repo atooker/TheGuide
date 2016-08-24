@@ -103,11 +103,11 @@ nav{
 .coffee_text{
      border:solid black 3px;
      width: 100%;
-     color: white;
+     color: whitesmoke;
      padding-left: 2em;
      padding-right: 2em;
      overflow: hidden;
-     background: url('https://hd.unsplash.com/photo-1452882033718-1caccfcfe77f') ;
+     background: url('https://hd.unsplash.com/photo-1447933601403-0c6688de566e') ;
   background-size: cover;
 }
 
