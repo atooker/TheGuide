@@ -3,46 +3,34 @@
 	box-sizing: border-box;
 }
 
-
 /*
-@-ms-viewport{
-  width: device-width;
-}
-*/
-
-
-
 article {
-     max-height: 9em; 
      padding: 10px;
 }
+*/
 
 a{
      text-decoration: none;
 }
 
-body{
-     display: block;
-     margin: 0;
-}
 .main-container{
-     width: device-width;
+     width: 100%;
      margin: 0 auto; 
      background-color: whitesmoke;
      font-family: 'Raleway', sans-serif;
 }
 
+
 header{
  	text-align: center;
      width: 100%;
-     height:500px;
      position: relative;
      color: whitesmoke;
 }
 
 .banner{
-     height: 500px;
      width: 100%;
+     padding-top:50px; 
      background-color: coral;
 }
 
@@ -51,7 +39,6 @@ header{
      margin: auto;
      position: absolute;
      bottom: 0;
-     height: 250px;
 }
 
 .welcome{
@@ -65,63 +52,79 @@ nav{
 }
 
 .pill-button { 
-     display: inline-block;
-     padding: 10px 20px;
+     display: flex;
+     padding: 15px 20px;
      margin-right: 1em;
-     background-color: whitesmoke;
+/*     background-color: whitesmoke;*/
      text-decoration:none;  
-     color:black;
+     color:whitesmoke;
+     
 } 
 
+@media (min-width: 768px)
+{ .pill-button{
+          display:inline-block;
+}}
+
 .pill-button:hover{
-    color: white;
-		background-color:black;
+    color: aqua;
 }
 
 .section_one{
-     height:auto;
-     width: 100%;
-     display: flex;
+     display: block;
      text-align: center;
-     margin-top: 80px; 
+     margin-top: 40px;
+     margin-bottom: 40px;
 }
 
 .welcome_message{
-  height: 100%;;
-  width: 500px;
-  margin: 0 100px;
-  border:solid black 3px;
-  padding: 40px;
-  
+     border: solid black 3px;
+     padding: 18px;
 }
 
+@media (min-width: 768px)
+{ .welcome_message{
+     padding-bottom: 83px;
+     }}
+    
+
+
+/*
 .bodyCopy{
-	text-align:left;
-	height:100%;
-	word-wrap: break-word;
+    width: 100%;
+    text-align: left;
+    height: 100%;
 }
+*/
 
 .column_two{
-	margin-right: 80px;
+     padding: 15px 15px 0px 15px; 
 }
+
+@media (min-width: 768px)
+{ .column_two{
+     padding-top: 0px;
+     padding-bottom: 15px;
+}}
 
 .coffee_text{
      border:solid black 3px;
      width: 100%;
      color: whitesmoke;
-     padding-left: 2em;
-     padding-right: 2em;
+     padding-left: 1em;
+     padding-right: 1em;
      overflow: hidden;
      background: url('https://hd.unsplash.com/photo-1447933601403-0c6688de566e') ;
   background-size: cover;
+     text-align: center;
 }
 
 .connect_Card{
      border:solid black 3px;
      height: 50%;
-     margin-top: 50px;
      width: 100%;
      padding: 15px;
+     text-align: center;
 }
 
 .connect_Card h3{
@@ -131,14 +134,14 @@ nav{
 }
 
 .space_container{
-  width:100%;
-  height:100px;
-  background-color:black;
-  margin-bottom: 70px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: black;
+    margin-top: 40px;
 }
 
 .n_s{
-  font-size: 72px;
+  font-size: 4em;
   color: white;
   text-align: center;
 }
@@ -157,37 +160,56 @@ nav{
 }
 
 .groupLife{
-  display:flex;
-  border:3px solid black;
-  height: 306px;
-  margin-bottom: 70px;
+/*display: block; */
+    /* border: 3px solid black; */
+    margin-top: 15px;
+     margin-bottom: 15px;
+    /* margin-bottom: 30px; */
 }
 
 .gL{
      text-align: center;
      width: 100%;
-     font-size: 4em;
-     margin-top: 110px;
+     font-size: 2.5em;
+     padding: 30px;
      text-shadow: 2px 1px whitesmoke;
 }
 
+@media (min-width: 768px)
+{ .gL{
+    font-size: 4em;
+     padding-top: 90px;
+}}
+
 .gl_graphic{
-     width: 200em;
+     width: 100%;
+     height: 30%;
      overflow: hidden;
 }
+
+@media (min-width: 768px)
+{ .gl_graphic{
+    height: 250px;
+}}
 
 .groupLifeGraphic{
      width:100%;
      height: 100%;
      background-image: url(http://onespokane.com/wp-content/uploads/2014/12/Dollarphotoclub_74031703.jpg);
      overflow: hidden;
-  background-size: cover;
+     background-size: cover;
 }
 
 .groupLife_content {
-     padding: 40px;
+     padding: 20px;
 }
 
+@media (min-width: 768px)
+{ .groupLife_content{
+    height: 100%;
+     width: 40%;
+     float: left;
+}}
 .groupLife_content p {
      padding-bottom: 20px;
      margin-bottom: 0px;
@@ -196,34 +218,51 @@ nav{
 
 
 .growthTrack{
-  display:flex;
-  border:3px solid black;
-  height: 306px;
-  width:100%;
-  margin-bottom: 70px;
+     margin-top: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
 }
 
 .gt_graphic{
-     width: 170em;
+     width: 100%;
      height: 100%;
      overflow: hidden;
-     background-color: black;
 }
+
+@media (min-width: 768px)
+{ .gt_graphic{
+     height: 240px;
+}}
 
 .growthGraphic{
      width:100%;
-     height: 100%;
+     height: 100px;
      background-image: url(http://onespokane.com/wp-content/uploads/2016/03/Growth-Track-Color-Option-3.png);
      overflow: hidden;
-     background-size: contain;
-     margin-top: 30px;
-     margin-left: 5px;
+     background-position: center;
+     background-size: 80%;
      background-repeat: no-repeat;
+     background-color: black;
 }
 
+@media (min-width: 768px)
+{ .growthGraphic{
+     height: 100%;
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-color: none;
+}}
+
+
 .growthTrack_content{
-  padding:40px;
+     padding: 20px;
 }
+
+@media (min-width: 768px)
+{ .growthTrack_content{
+     padding-bottom: 40px;
+}}
 
 .growthTrack_content p {
      padding-bottom: 20px;
@@ -231,61 +270,109 @@ nav{
      margin-top: 0px;
 }
 
+@media (min-width: 768px)
+{ .growthTrack_content p{
+  padding-bottom: 50px;
+}}
 
 .volunteer{
-  display:flex;
-  border:3px solid black;
-  height: 306px;
-  width:100%;
-  margin-bottom: 70px;
+     margin-top: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
 }
 
 .v_graphic{
-     width: 121em;
+     width: 100%;
+     height: 100px;
      overflow: hidden;
      background-color: black;
 }
 
+@media (min-width: 768px)
+{ .v_graphic{
+  height: 250px;
+     margin-bottom: 30px;
+}}
+     
+
 .volGraphic{
      width:100%;
-     height: 100%;
      background-color: black;
      overflow: hidden;
      background-size: cover;
 }
 
+@media (min-width: 768px)
+{ .volGraphic{
+     margin-top: 50px;
+}}
+
 .v{
-     font-size: 3.5em;
-     margin-top: 120px;
-     color:white;
+     font-size: 2em;
+     color: white;
      text-align: center;
 }
 
-.giving_icons{
-  display:flex; 
-  margin: 50px;
-  justify-content: space-between;
+@media (min-width: 768px)
+{ .v{
+     font-size: 4em;
+}}
+
+.volunteer_content{
+     padding: 20px;
 }
+
+@media (min-width: 768px)
+{ .volunteer_content{
+     padding-bottom: 40px;
+}}
+
+.volunteer_content p {
+     padding-bottom: 20px;
+     margin-bottom: 0px;
+     margin-top: 0px;
+}
+
+@media (min-width: 768px)
+{ .volunteer_content p{
+  padding-bottom: 80px;
+}}
+
+.giving_icons{
+margin-left: 0px;
+     margin-top: 15px;
+}
+
+
+@media (min-width: 768px)
+{ .giving_icons{
+  margin-left: 90px
+}}
 
 .online h3{
-  margin-left: 40px;
+text-align: center;}
+
+.kiosk{
+     width: 100%;
 }
+
+@media (min-width: 768px)
+{ .kiosk{
+  width:140px;
+}}
+
 
 .kiosk h3{
-  margin-left: -10px;
-}
+text-align: center;}
 
 .service h3{
-  margin-left: 15px;
-}
+text-align: center;}
 
 .text h3{
-  margin-left:-3px;
-}
+text-align: center;}
 
 .mail h3{
-  margin-left: 18px;
-}
+text-align: center;}
 
 .row1{
      display:flex;
@@ -294,10 +381,11 @@ nav{
 }
 
 .annc1{
-     margin-right: 3em;
-     width: 30em;
-     border: 3px solid black;
-     text-align: center; 
+   margin-top: 15px;
+    width: 100%;
+    /* height: 100%; */
+    /* border: 3px solid black; */
+    text-align: center;
      
 }
 
@@ -309,10 +397,11 @@ nav{
 
 
 .annc2{
-  width: 30em;
-  border: 3px solid black;
-  text-align: center; 
-
+margin-top: 15px;
+    width: 100%;
+    /* height: 100%; */
+    /* border: 3px solid black; */
+    text-align: center;
 }
 
 .youth{
@@ -327,10 +416,11 @@ nav{
 }
 
 .annc3{
-     width: 30em;
-     margin-right: 3em;
-     border: 3px solid black;
-     text-align: center; 
+ margin-top: 15px;
+    width: 100%;
+    /* height: 100%; */
+    /* border: 3px solid black; */
+    text-align: center;
 }
 
 .baptism{
@@ -341,9 +431,11 @@ annc3 p{
      margin: 20px;
 }
 .annc4{
-     width: 30em;
-     border: 3px solid black;
-     text-align: center;
+     margin-top: 15px;
+    width: 100%;
+    /* height: 100%; */
+    /* border: 3px solid black; */
+    text-align: center;
 }
 
 .fallGraphic{
@@ -355,6 +447,26 @@ annc3 p{
      overflow: hidden;
 }
 
+@media (min-width: 768px)
+{ .fallGraphic{
+  height:400px;
+}}
+
+.fallTitle{
+     font-size: 5em;  
+     color: beige; 
+     text-shadow: 3px 3px maroon; 
+     margin-top: 30px; 
+     margin-bottom: 0px;
+}
+
+.fallContent{
+     color: cornsilk; 
+     -webkit-text-stroke: 1px black;
+     text-shadow: 1px 1px black; 
+}
+
+
 .row3{
      display:flex;
      justify-content:space-between;
@@ -362,29 +474,53 @@ annc3 p{
 }
 
 .oneX{
-     width: 30em;
-     margin-right: 3em;
-     border: 3px solid black;
-     text-align: center; 
+     margin-top: 15px;
+    width: 100%;
+    /* height: 100%; */
+    /* border: 3px solid black; */
+    text-align: center;
+}
 
+.oxImage{
+     width: 100%;
+     background-color: black;
+     overflow: hidden;
 }
 
 .oX{
- width:100%;
-
+ width:80%;
 }
 
 .iYi{
-     width: 30em;
-     border: 3px solid black;
-     text-align: center; 
+ margin-top: 15px;
+    width: 100%;
+    /* height: 100%; */
+    /* border: 3px solid black; */
+    text-align: center;
 }
 
-.asteric{
+
+.astericImage{
      width: 100%;
-     height: 12em;
-    margin-bottom: 10px;
+     background-color: white;
+     overflow: hidden;
+     height: 100%;
 }
+
+@media (min-width: 768px)
+{ .astericImage{
+  height: 205px;
+}}
+
+.asteric{
+     width: 90%;
+         margin-top: 30px;
+}
+
+@media (min-width: 768px)
+{ .asteric{
+  margin-top: 0px;
+}}
 
 .eventContent{
     margin: 80px;
@@ -400,19 +536,18 @@ annc3 p{
 		
 }
 
-th, td {
-     padding: 5px;}
 
+
+th, td {
+}
 th{
-     padding-right: 5px;
+     padding-right: 15px;
 }
 
 
 .mainEvents{
-    display: block;
-    width: 100%;
-     margin-left: 40px;
-     height: auto;
+     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .eventLinks: hover{
@@ -446,16 +581,21 @@ th{
 }
 
 .event2{
-
+     height: 280px;;
 }
+    
 
 .ev2{
     width: 100%;
 }
 
 .event3{
-
+    margin-top: -60px;  
 }
+
+@media (min-width: 768px)
+{ .event3{
+margin-top: 0px }}
 
 .ev3{
      width: 100%;
@@ -470,17 +610,17 @@ th{
 
 
 .google{
-  width: 35em;
+/*  width: 100%;*/
 }
 
 .gd{
-	width: 60%;
-	margin-left: 90px;
+	width: 100%;
+/*	margin-left: 90px;*/
 }
 
 .apple{
 	
-  width:30%;
+  width:100%;
 }
 
 footer{
@@ -491,53 +631,79 @@ footer{
 }
 
 .mediaIcons{
-	  display: flex;
-    position: relative;
-    top: 3em;
-		left: 33%;  
-	  margin-bottom: 30px;
+display: flex;
 }
 
+
+
+.icon{
+     height:30px;
+     margin-top: 15px;
+     margin-left: 12px;
+}
+
+@media (min-width: 768px)
+{ .icon{
+     height: auto;
+     margin-top: 50px;
+     margin-left: 130px;
+     
+     }}
+
 .watch{
-	margin-right: 3em;
-     width: 3%;;
-     color: ;
-    
+     
+    margin-right: 20px; 
 }
 
 .facebook{
-	margin-right: 3em;
-  width: 2%;
+    margin-right: 20px; 
+
 }
 
 .twitter{
-	margin-right: 3em;
-  width: 5%;
+    margin-right: 20px; 
 }
+
 
 .instagram{
-	margin-right: 3em;
-     width: 4%;
+    margin-right: 20px; 
 }
+
 
 .googlePlus{
-	margin-right: 3em;
-  width: 6%;
+    margin-right: 20px; 
 }
 
+
+
 .name{
-     display:flex;
-     justify-content:center;
-     font-size:2em;
-     color:white;
-     margin-top: 40x;
-     margin-bottom: -50px;
+   color:whitesmoke; text-align:center;
 }
+
+@media (min-width: 768px)
+{ .name{
+font-size: 5em;
+     }}
 
 .contactInfo{
      display: flex;
      text-align: center;
-     margin-left: 140px;
+/*     margin-left: 140px;*/
      color:white;
   
 }
+
+#mc_embed_signup{
+     font: 14px Helvetica,Arial,sans-serif;
+     width: 70%;
+     margin-left: 50px;
+     padding-bottom: 90px;
+}
+
+@media (min-width: 768px)
+{ #mc_embed_signup{
+width: 50%;
+     margin-left: 350px;
+     padding-bottom: 90px;
+     }}
+
