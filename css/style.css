@@ -420,8 +420,13 @@ margin-top: 15px;
 
 .youth{
          width:100%;
-
+     overflow: hidden;
 }
+
+@media (min-width: 768px)
+{ .youth{
+  height:310px;
+}}
 
 .row2{
      display:flex;
