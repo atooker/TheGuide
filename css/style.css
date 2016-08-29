@@ -600,7 +600,7 @@ th{
 }
 
 .event2{
-     height: 280px;;
+   
 }
     
 
@@ -609,12 +609,8 @@ th{
 }
 
 .event3{
-    margin-top: -60px;  
 }
 
-@media (min-width: 768px)
-{ .event3{
-margin-top: 0px }}
 
 .ev3{
      width: 100%;
