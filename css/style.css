@@ -3,12 +3,12 @@
 	box-sizing: border-box;
 }
 
-/*
-article {
-     padding: 10px;
-}
-*/
-
+.appleLinks a {
+     color:whitesmoke; 
+     text-decoration: none;}
+.appleLinksWhite a {
+     color:whitesmoke; 
+     text-decoration: none;}
 a{
      text-decoration: none;
 }
