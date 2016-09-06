@@ -442,7 +442,7 @@ margin-top: 15px;
     text-align: center;
 }
 
-.baptism{
+.annc3Graphic{
      width:100%; 
 }     
 
@@ -457,7 +457,7 @@ annc3 p{
     text-align: center;
 }
 
-.fallGraphic{
+.annc4Graphic{
      height:100%;
      background-image: url(https://hd.unsplash.com/photo-1429198739803-7db875882052);
      background-size: cover;
@@ -482,7 +482,9 @@ annc3 p{
 .fallContent{
      color: cornsilk; 
      -webkit-text-stroke: 1px black;
-     text-shadow: 1px 1px black; 
+     text-shadow: 1px 1px black;   
+     margin-bottom: 110px;
+     margin-top: 90px;
 }
 
 
