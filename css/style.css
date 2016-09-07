@@ -93,15 +93,25 @@ nav{
 
 .welcome_message{
      border: solid black 3px;
-     padding: 18px;
+     padding: 25px;
 }
 
+/*
 @media (min-width: 768px)
 { .welcome_message{
      padding-bottom: 83px;
      }}
+*/
     
+.wmSignature{
+     text-align:right; 
+     font-size: 17px;  
+}
 
+@media (min-width: 768px)
+{ .wmSignature{
+     font-size: 24px;
+     }}
 
 /*
 .bodyCopy{
@@ -458,35 +468,9 @@ annc3 p{
 }
 
 .annc4Graphic{
-     height:100%;
-     background-image: url(https://hd.unsplash.com/photo-1429198739803-7db875882052);
-     background-size: cover;
-/*     background-position: bottom;*/
-     background-repeat: no-repeat;
-     overflow: hidden;
+     height: 50%;
+     width: 100%;
 }
-
-@media (min-width: 768px)
-{ .fallGraphic{
-  height:400px;
-}}
-
-.fallTitle{
-     font-size: 5em;  
-     color: beige; 
-     text-shadow: 3px 3px maroon; 
-     margin-top: 30px; 
-     margin-bottom: 0px;
-}
-
-.fallContent{
-     color: cornsilk; 
-     -webkit-text-stroke: 1px black;
-     text-shadow: 1px 1px black;   
-     margin-bottom: 110px;
-     margin-top: 90px;
-}
-
 
 .row3{
      display:flex;
@@ -512,6 +496,7 @@ annc3 p{
  width:80%;
 }
 
+
 .iYi{
  margin-top: 15px;
     width: 100%;
@@ -521,27 +506,36 @@ annc3 p{
 }
 
 
-.astericImage{
-     width: 100%;
-     background-color: white;
+.iYiGraphic{
+     height:100%;
+     background-image: url(https://hd.unsplash.com/photo-1429198739803-7db875882052);
+     background-size: cover;
+/*     background-position: bottom;*/
+     background-repeat: no-repeat;
      overflow: hidden;
-     height: 100%;
 }
 
 @media (min-width: 768px)
-{ .astericImage{
-  height: 205px;
+{ .fallGraphic{
+  height:400px;
 }}
 
-.asteric{
-     width: 90%;
-         margin-top: 30px;
+.fallTitle{
+     font-size: 5em;  
+     color: beige; 
+     text-shadow: 3px 3px maroon; 
+     margin-top: 30px; 
+     margin-bottom: 0px;
 }
 
-@media (min-width: 768px)
-{ .asteric{
-  margin-top: 0px;
-}}
+.fallContent{
+     color: cornsilk; 
+     -webkit-text-stroke: 1px black;
+     text-shadow: 1px 1px black;   
+     margin-bottom: 30px;
+     margin-top: 30px;
+}
+
 
 .eventContent{
     margin: 80px;
@@ -580,7 +574,8 @@ th{
      background-size: cover;
      width: 100%;
      color: white;
-     padding:2em;
+     padding: 1em;
+     height: 200px;
      text-align: center;
      overflow: hidden;
 }
