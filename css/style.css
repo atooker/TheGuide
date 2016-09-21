@@ -610,12 +610,31 @@ th{
 }
 
 .event3{
+     height: 100%;
+     width: 100%;
+     overflow: hidden;
 }
 
 
 .ev3{
-     width: 100%;
+     width: 150%;
+     position: relative;
+     left: -80px;
 }
+
+@media (min-width: 768px)
+{ .ev3{
+     width: 150%;
+     position: relative;
+     left: -195px;
+}}
+
+@media (min-width: 1024px)
+{ .ev3{
+     width: 150%;
+     position: relative;
+     left: -125px;
+}}
 
 
 .icons{
