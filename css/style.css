@@ -464,17 +464,36 @@ annc3 p{
      margin: 20px;
 }
 .annc4{
-     margin-top: 15px;
+    margin-top: 15px;
     width: 100%;
     /* height: 100%; */
     /* border: 3px solid black; */
     text-align: center;
+    overflow: hidden;
 }
 
 .annc4Graphic{
-     height: 50%;
-     width: 100%;
+     height: 163.13px;
+     position: relative;
+     left: -85px;
+     
 }
+
+@media (min-width: 768px)
+{ .annc4Graphic{
+     height: 100%;
+     width: 126%;
+     position: relative;
+     left: -105px;
+}}
+
+@media (min-width: 1024px)
+{ .annc4Graphic{
+     height: 100%;
+     width: 126%;
+     position: relative;
+     left: -65px;
+}}
 
 .row3{
      display:flex;
