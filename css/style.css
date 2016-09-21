@@ -417,7 +417,7 @@ text-align: center;}
 
 .childrens{
 /*     height:100;*/
-     width:100%;
+         width: 57.5%;
 }
 
 
@@ -431,14 +431,16 @@ margin-top: 15px;
 }
 
 .youth{
-         width:100%;
+     width:100%;
      overflow: hidden;
 }
 
+/*
 @media (min-width: 768px)
 { .youth{
   height:310px;
 }}
+*/
 
 .row2{
      display:flex;
