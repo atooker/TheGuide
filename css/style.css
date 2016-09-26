@@ -475,8 +475,7 @@ annc3 p{
 .annc4Graphic{
      height: 163.13px;
      position: relative;
-     left: -85px;
-     
+     left: -85px;   
 }
 
 @media (min-width: 768px)
@@ -485,6 +484,7 @@ annc3 p{
      width: 126%;
      position: relative;
      left: -105px;
+     margin-bottom: 50px;
 }}
 
 @media (min-width: 1024px)
