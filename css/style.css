@@ -29,7 +29,6 @@ header{
 
 .banner{
      width: 100%;
-     height: 100%;
      padding-top:50px; 
      background-color: coral;
 }
@@ -598,10 +597,33 @@ th{
      width: 100%;
      color: white;
      padding: 1em;
-     height: 200px;
+     height: 220px;
      text-align: center;
      overflow: hidden;
 }
+
+.followAlong{
+     font-size:xx-large;
+     color: white;
+     text-shadow: 2px 2px black;
+}
+
+@media (min-width: 768px)
+{ .followAlong{
+     font-size:xx-large;
+}}
+
+.teachingBlurb{
+     color: white;
+     text-shadow: 1px 1px black;
+     font-size: smaller;
+     margin-bottom: 30px;
+}
+
+@media (min-width: 768px)
+{ .teachingBlurb{
+     font-size:large;
+}}
 
 .teachingNotes{
      padding: 10px 20px;
@@ -620,47 +642,43 @@ th{
 }
 
 .event2{
-   
-}
-    
-
-.ev2{
-    width: 100%;
-}
-
-.event3{
      height: 100%;
      width: 100%;
      overflow: hidden;
 }
 
 
-.ev3{
+.ev2{
      width: 150%;
      position: relative;
      left: -80px;
 }
 
 @media (min-width: 768px)
-{ .ev3{
+{ .ev2{
      width: 150%;
      position: relative;
      left: -195px;
 }}
 
 @media (min-width: 1024px)
-{ .ev3{
+{ .ev2{
      width: 150%;
      position: relative;
      left: -145px;
 }}
 
 @media (min-width: 1440px)
-{ .ev3{
+{ .ev2{
      width: 150%;
      position: relative;
      left: -155px;
 }}
+
+.ev4{
+     width: 100%;
+}
+
 
 
 .icons{
