@@ -473,25 +473,26 @@ annc3 p{
 
 .annc4Graphic{
      height: 163.13px;
+/*
      position: relative;
      left: -85px;   
+*/
 }
 
 @media (min-width: 768px)
 { .annc4Graphic{
      height: 100%;
-     width: 126%;
+     width: 100%;
      position: relative;
-     left: -105px;
-     margin-bottom: 50px;
+     left: 10px;
+/*     margin-bottom: 50px;*/
 }}
 
 @media (min-width: 1024px)
 { .annc4Graphic{
      height: 256px;
-     width: 126%;
-     position: relative;
-     left: -65px;
+     width: 100%;
+     left: -4px;
 }}
 
 .row3{
@@ -649,31 +650,10 @@ th{
 
 
 .ev2{
-     width: 150%;
-     position: relative;
-     left: -80px;
+     width: 100%;
 }
 
-@media (min-width: 768px)
-{ .ev2{
-     width: 150%;
-     position: relative;
-     left: -195px;
-}}
 
-@media (min-width: 1024px)
-{ .ev2{
-     width: 150%;
-     position: relative;
-     left: -145px;
-}}
-
-@media (min-width: 1440px)
-{ .ev2{
-     width: 150%;
-     position: relative;
-     left: -155px;
-}}
 
 .ev4{
      width: 100%;
