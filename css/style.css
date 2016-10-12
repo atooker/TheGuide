@@ -459,6 +459,25 @@ margin-top: 15px;
      width:100%; 
 }     
 
+@media (min-width: 768px)
+{ .annc3Graphic{
+     height: 310px;
+}}
+
+iframe{
+     width: 100%;
+}
+
+@media (min-width: 768px)
+{ iframe{
+     height: 255px;
+}}
+
+@media (min-width: 1422px)
+{ iframe{
+     height: 315px;
+}}
+
 annc3 p{
      margin: 20px;
 }
