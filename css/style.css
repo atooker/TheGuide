@@ -415,8 +415,8 @@ text-align: center;}
 }
 
 .childrens{
-/*     height:100;*/
-         width: 57.5%;
+     height:50%;
+     width: 100%;
 }
 
 
@@ -528,16 +528,10 @@ annc3 p{
     text-align: center;
 }
 
-.oxImage{
+.oXGraphic{
      width: 100%;
-     background-color: black;
      overflow: hidden;
 }
-
-.oX{
- width:80%;
-}
-
 
 .iYi{
  margin-top: 15px;
@@ -549,35 +543,9 @@ annc3 p{
 
 
 .iYiGraphic{
-     height:100%;
-     background-image: url(https://hd.unsplash.com/photo-1429198739803-7db875882052);
-     background-size: cover;
-/*     background-position: bottom;*/
-     background-repeat: no-repeat;
+     width:80%;
      overflow: hidden;
 }
-
-@media (min-width: 768px)
-{ .fallGraphic{
-  height:400px;
-}}
-
-.fallTitle{
-     font-size: 5em;  
-     color: beige; 
-     text-shadow: 3px 3px maroon; 
-     margin-top: 30px; 
-     margin-bottom: 0px;
-}
-
-.fallContent{
-     color: cornsilk; 
-     -webkit-text-stroke: 1px black;
-     text-shadow: 1px 1px black;   
-     margin-bottom: 30px;
-     margin-top: 30px;
-}
-
 
 .eventContent{
     margin: 80px;
