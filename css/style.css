@@ -440,6 +440,19 @@ margin-top: 15px;
   height:310px;
 }}
 */
+.Reach{
+     width: 100%;
+}
+
+@media (min-width: 768px)
+{ .Reach{
+     height: 255px;
+}}
+
+@media (min-width: 1422px)
+{ .Reach{
+     height: 315px;
+}}
 
 .row2{
      display:flex;
