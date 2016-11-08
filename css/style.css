@@ -453,6 +453,10 @@ margin-top: 15px;
 { .Reach{
      height: 315px;
 }}
+@media (min-width: 2511px)
+{ .Reach{
+     height: 515px;
+}}
 
 .row2{
      display:flex;
@@ -489,6 +493,11 @@ iframe{
 @media (min-width: 1422px)
 { iframe{
      height: 315px;
+}}
+
+@media (min-width: 2511px)
+{ iframe{
+     height: 515px;
 }}
 
 annc3 p{
