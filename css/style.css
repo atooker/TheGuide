@@ -444,19 +444,7 @@ margin-top: 15px;
      width: 100%;
 }
 
-@media (min-width: 768px)
-{ .Reach{
-     height: 255px;
-}}
 
-@media (min-width: 1422px)
-{ .Reach{
-     height: 315px;
-}}
-@media (min-width: 2511px)
-{ .Reach{
-     height: 515px;
-}}
 
 .row2{
      display:flex;
@@ -565,7 +553,7 @@ annc3 p{
 
 
 .iYiGraphic{
-     width:92.5%;
+     width:100%;
      overflow: hidden;
 }
 
