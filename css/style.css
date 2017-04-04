@@ -586,7 +586,9 @@ th{
 }
 
 .event0{
+/*
      background-image: url(https://hd.unsplash.com/photo-1414058862086-136de6c98e99);
+     
      background-size: cover;
      width: 100%;
      color: white;
@@ -594,8 +596,18 @@ th{
      height: 220px;
      text-align: center;
      overflow: hidden;
+*/
+     
+     height: 100%;
+     width: 100%;
+     overflow: hidden;
 }
 
+.ev0{
+     width: 100%;
+}
+
+/*
 .followAlong{
      font-size:xx-large;
      color: white;
@@ -626,7 +638,12 @@ th{
      text-decoration:none;  
      color:white;
      font-size:1em;
+     position: absolute;
+     top: 170px;
+     left: 170px;
+     
 }
+*/
 
 .event1{
 }
